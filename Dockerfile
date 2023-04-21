@@ -1,7 +1,7 @@
 # getting the base image 
 FROM node:lts
 
-# creating working direcotry 'app'
+# creating working directory 'mynodejsapp'
 WORKDIR /mynodejsapp
 
 # copying package.json and package-lock.json from local machine to container
