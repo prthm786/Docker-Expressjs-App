@@ -9,7 +9,7 @@ const app = express()
 
 # Middleware 
 app.use((req, res, next) => {
-    appendFileSync("./logs.txt", `IP: ${req.id \nUrl: ${req.url} \nMethod: ${req.method}`)
+    appendFileSync("./logs.txt", `IP: ${req.id} \nUrl: ${req.url} \nMethod: ${req.method}`)
 
     next()
 })
