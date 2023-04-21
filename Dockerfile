@@ -2,7 +2,7 @@
 FROM node:lts
 
 # creating working direcotry 'app'
-WORKDIR /app
+WORKDIR /mynodejsapp
 
 # copying package.json and package-lock.json from local machine to container
 COPY package*.json .
