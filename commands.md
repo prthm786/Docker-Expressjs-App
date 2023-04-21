@@ -1,7 +1,7 @@
 # Commands Used 
 
 ### Building docker image
-`$ docker build -t myapp:1.0 .`
+`$ docker build -t mynodejsapp:1.0 .`
 
 ### Listing all docker images
 `$ docker images`
