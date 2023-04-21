@@ -7,7 +7,7 @@ const log = console.log
 const app = express()
 
 app.get("/", (req, res) => {
-    res.write("Hello World")
+    res.send("Hello World")
 })
 
 app.listen(port, () => {
