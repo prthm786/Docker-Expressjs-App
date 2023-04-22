@@ -13,4 +13,4 @@ Creating docker image of our basic Express App
 - run `npm install` 
 - `curl localhost:5000`, this confirms everthing is working properly.
 
-- Now you can create Docker image for the app using *commands.md*
+- Now you can create Docker image for the app using **commands.md**
